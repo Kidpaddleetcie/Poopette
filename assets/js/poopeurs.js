@@ -94,7 +94,7 @@ let poopeurs = [{
         "Visu": 3,
         "SM": 3,
         "img": "https://yt3.ggpht.com/ytc/AAUvwnjBrKB0TAX4EfYvuto4tDz1Av_LaAaqRZaYn6tK4Q=s88-c-k-c0x00ffffff-no-rj",
-        "url": "https://www.youtube.com/c/GbasireYTP/videos",
+        "url": "https://www.youtube.com/channel/UCgOMLe0Yz0uzVuVRH3XzQOg/videos",
     }
 
 
