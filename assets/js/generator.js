@@ -10,7 +10,7 @@ for (let ii = 0; ii < poopeurs.length; ii++) {
     gen += '<img class="pp" src="' + YTPmakers.img + '"/>'
     gen += '<p class="visu"> ' + visu_table[YTPmakers.Visu - 1] + '</p>'
     gen += '<p class="sm"> ' + sm_table[YTPmakers.SM - 1] + '</p>'
-    gen += '<div class="g-ytsubscribe" data-channel="' + idytp.split('/')[3] + '" data-layout="default" data-theme="dark" data-count="default"></div>'
+    gen += '<div class="g-ytsubscribe" data-channel="' + idytp.split('/')[4] + '" data-layout="default" data-theme="dark" data-count="default"></div>'
     gen += '</div></a>';
 }
 document.getElementById("poopeurs").innerHTML = gen;
