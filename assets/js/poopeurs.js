@@ -34,13 +34,54 @@ let poopeurs = [{
         "url": "https://www.youtube.com/user/Jefaischierlesgens/videos"
     },
     {
-        "Nom": "Poopulaire",
+        "Nom": "RangerSpatial8",
+        "Visu": 2,
+        "SM": 3,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwnjTisuKIypirMJDsdWzDkSbNuMuRX4mjNl-B8v6tw=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/user/RangerSpatial8/videos"
+    },
+    {
+        "Nom": "King Harkinian",
+        "Visu": 4,
+        "SM": 2,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwnj-f4ugAeZefczv3F7VOqQ__6RwTkl49Xgio-wFZQ=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/KingHarkiniannn/videos"
+    },
+    {
+        "Nom": "Ipsum",
         "Visu": 4,
         "SM": 3,
-        "img": "https://yt3.ggpht.com/a/AGF-l79floUPLYhXU1pbFLVV40cZctYj4xuibQTZQA=s288-c-k-c0xffffffff-no-rj-mo",
-        "url": "https://www.youtube.com/channel/UCbK5TxzVZrgbcDUT_XsYgVg"
+        "img": "https://yt3.ggpht.com/ytc/AAUvwngTcQMkVip0HKlHi0YM5axpBdbVLkp_bds_YIsc=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/IPSUMLUMINEUX/videos"
+    },
+    {
+        "Nom": "Yoonns.",
+        "Visu": 2,
+        "SM": 2,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwnhyS_1aFvAEWwL6qtgv1wknQDEaHiTKnyoOZIAMjA=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/newkarlottay2/videos"
+    },
+    {
+        "Nom": "Capitaine Sadako",
+        "Visu": 4,
+        "SM": 2,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwnj_XpB76sEojN2WOWchN2RavwQWo2xCoVSJ2Z8m9Q=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/channel/UCDAAfPkAx7BS_3SpSK133qQ"
+    },
+    {
+        "Nom": "Suimoco Squidfox",
+        "Visu": 4,
+        "SM": 2,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwnhhQsTWBKMVacK-l8ynMpBZ4mJtfmvwQpiJ5RyMsw=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/channel/UCKSvl6OExc9E-ssrCsJjxEw"
+    },
+    {
+        "Nom": "EnfluredeRenard",
+        "Visu": 4,
+        "SM": 3,
+        "img": "https://yt3.ggpht.com/ytc/AAUvwng8-1skN_wFxojyEpU2Qo4twA-Sz02jqr5_7pI-yw=s88-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/EnfluredeRenard/videos"
     }
-
 
 
 ]

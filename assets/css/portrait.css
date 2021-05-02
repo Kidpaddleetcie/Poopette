@@ -1,0 +1,87 @@
+@media only screen and (orientation: portrait) {
+  section {
+    width: 90vw;
+    margin: auto auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+        grid-template-areas: ". .  " ". .  ";
+  }
+  section a {
+    text-decoration: none;
+    border: 3px solid #FFFFFF;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section a:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  section a:nth-child(2n+1) {
+    background: red;
+    background: -webkit-gradient(linear, left top, left bottom, from(red), to(black));
+    background: linear-gradient(180deg, red 0%, black 100%);
+  }
+  section a:nth-child(2n+1) .boite {
+    width: 100%;
+  }
+  section a:nth-child(2n+1) .boite .nom {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 4vw;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+  }
+  section a:nth-child(2n+1) .boite .pp {
+    width: 100%;
+  }
+  section a:nth-child(2n+1) .boite .visu {
+    text-align: center;
+    color: white;
+  }
+  section a:nth-child(2n+1) .boite .sm {
+    text-align: center;
+    color: white;
+  }
+  section a:nth-child(2n) {
+    background: red;
+    background: -webkit-gradient(linear, left bottom, left top, from(red), to(black));
+    background: linear-gradient(0deg, red 0%, black 100%);
+  }
+  section a:nth-child(2n) .boite {
+    width: 100%;
+  }
+  section a:nth-child(2n) .boite .nom {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 4vw;
+    word-spacing: 1.2px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+  }
+  section a:nth-child(2n) .boite .pp {
+    width: 100%;
+  }
+  section a:nth-child(2n) .boite .visu {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+  }
+  section a:nth-child(2n) .boite .sm {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=portrait.css.map */

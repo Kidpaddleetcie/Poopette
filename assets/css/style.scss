@@ -1,9 +1,11 @@
         body {
             margin: 0;
+            background-color: #00041b;
         }
         
         header {
             width: 100%;
+            background-color: white;
             img {
                 display: block;
                 margin-left: auto;
@@ -19,61 +21,167 @@
         }
         
         section {
-            margin: 5px;
-            display: block;
-            padding: 5vw;
-            a {
-                display: inline-block;
-                text-decoration: none;
-                margin: 5px;
-                .boite {
-                    width: 25vw;
-                    border: black 1px solid;
-                    .nom {
-                        margin: 0;
-                        width: 100%;
-                        text-shadow: red 3px 0px 0px, red 2.83487px 0.981584px 0px, red 2.35766px 1.85511px 0px, red 1.62091px 2.52441px 0px, red 0.705713px 2.91581px 0px, red -0.287171px 2.98622px 0px, red -1.24844px 2.72789px 0px, red -2.07227px 2.16926px 0px, red -2.66798px 1.37182px 0px, red -2.96998px 0.42336px 0px, red -2.94502px -0.571704px 0px, red -2.59586px -1.50383px 0px, red -1.96093px -2.27041px 0px, red -1.11013px -2.78704px 0px, red -0.137119px -2.99686px 0px, red 0.850987px -2.87677px 0px, red 1.74541px -2.43999px 0px, red 2.44769px -1.73459px 0px, red 2.88051px -0.838247px 0px;
-                        color: white;
-                        text-align: center;
-                        background: linear-gradient(red, white);
+            @media only screen and (orientation: portrait) {
+                width: 90vw;
+                margin: auto auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 0px 0px;
+                grid-template-areas: ". . . " ". . . ";
+                a {
+                    text-decoration: none;
+                    border: 3px solid #FFFFFF;
+                    transition: 0.3s;
+                    &:hover {
+                        transform: scale(0.95);
                     }
-                    .pp {
-                        width: 100%;
+                    &:nth-child(2n+1) {
+                        background: rgb(255, 0, 0);
+                        background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                        .boite {
+                            width: 100%;
+                            .nom {
+                                text-align: center;
+                                font-family: Impact, Charcoal, sans-serif;
+                                font-size: 40px;
+                                letter-spacing: -0.6px;
+                                word-spacing: 1.2px;
+                                color: #000000;
+                                font-weight: 700;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-variant: small-caps;
+                                text-transform: uppercase;
+                            }
+                            .pp {
+                                width: 100%;
+                            }
+                            .visu {
+                                text-align: center;
+                                color: white;
+                            }
+                            .sm {
+                                text-align: center;
+                                color: white;
+                            }
+                        }
                     }
-                    .visu {
-                        border-bottom: red 1px solid;
-                        margin: 0;
-                        color: red;
-                    }
-                    .sm {
-                        margin: 0;
-                        color: red;
+                    &:nth-child(2n) {
+                        background: rgb(255, 0, 0);
+                        background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                        .boite {
+                            width: 100%;
+                            .nom {
+                                text-align: center;
+                                font-family: Impact, Charcoal, sans-serif;
+                                font-size: 40px;
+                                letter-spacing: -0.6px;
+                                word-spacing: 1.2px;
+                                color: white;
+                                font-weight: 700;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-variant: small-caps;
+                                text-transform: uppercase;
+                            }
+                            .pp {
+                                width: 100%;
+                            }
+                            .visu {
+                                text-align: center;
+                                color: black;
+                                font-size: 1em;
+                            }
+                            .sm {
+                                text-align: center;
+                                color: black;
+                                font-size: 1em;
+                            }
+                        }
                     }
                 }
-                 :hover {
-                    width: 25vw;
-                    border: white 1px solid;
-                    .nom {
-                        margin: 0;
-                        width: 100%;
-                        text-shadow: rgb(255, 255, 255) 3px 0px 0px rgb(255, 255, 255) 2.83487px 0.981584px 0px rgb(255, 255, 255) 2.35766px 1.85511px 0px, white 1.62091px 2.52441px 0px, white 0.705713px 2.91581px 0px, white -0.287171px 2.98622px 0px, white -1.24844px 2.72789px 0px, white -2.07227px 2.16926px 0px, white -2.66798px 1.37182px 0px, white -2.96998px 0.42336px 0px, white -2.94502px -0.571704px 0px, white -2.59586px -1.50383px 0px, white -1.96093px -2.27041px 0px, white -1.11013px -2.78704px 0px, white -0.137119px -2.99686px 0px, white 0.850987px -2.87677px 0px, white 1.74541px -2.43999px 0px, white 2.44769px -1.73459px 0px, white 2.88051px -0.838247px 0px;
-                        color: white;
-                        text-align: center;
-                        background: linear-gradient(red, white);
+            }
+            @media only screen and (orientation: landscape) {
+                width: 90vw;
+                margin: auto auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 0px 0px;
+                grid-template-areas: ". . . " ". . . " ". . . "". . . "". . . ";
+                a {
+                    text-decoration: none;
+                    border: 3px solid #FFFFFF;
+                    transition: 0.3s;
+                    &:hover {
+                        transform: scale(0.95);
                     }
-                    .pp {
-                        width: 100%;
+                    &:nth-child(2n+1) {
+                        background: rgb(255, 0, 0);
+                        background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                        .boite {
+                            width: 100%;
+                            .nom {
+                                text-align: center;
+                                font-family: Impact, Charcoal, sans-serif;
+                                font-size: 40px;
+                                letter-spacing: -0.6px;
+                                word-spacing: 1.2px;
+                                color: #000000;
+                                font-weight: 700;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-variant: small-caps;
+                                text-transform: uppercase;
+                            }
+                            .pp {
+                                width: 15vw;
+                            }
+                            .visu {
+                                text-align: center;
+                                color: white;
+                                font-size: 1em;
+                            }
+                            .sm {
+                                text-align: center;
+                                color: white;
+                                font-size: 1em;
+                            }
+                        }
                     }
-                    .visu {
-                        background: red;
-                        border-bottom: red 1px solid;
-                        margin: 0;
-                        color: white;
-                    }
-                    .sm {
-                        background: red;
-                        margin: 0;
-                        color: white;
+                    &:nth-child(2n) {
+                        background: rgb(255, 0, 0);
+                        background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                        .boite {
+                            width: 100%;
+                            .nom {
+                                text-align: center;
+                                font-family: Impact, Charcoal, sans-serif;
+                                font-size: 40px;
+                                letter-spacing: -0.6px;
+                                word-spacing: 1.2px;
+                                color: white;
+                                font-weight: 700;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-variant: small-caps;
+                                text-transform: uppercase;
+                            }
+                            .pp {
+                                width: 100%;
+                            }
+                            .visu {
+                                text-align: center;
+                                color: black;
+                                font-size: 1em;
+                            }
+                            .sm {
+                                text-align: center;
+                                color: black;
+                                font-size: 1em;
+                            }
+                        }
                     }
                 }
             }
@@ -95,6 +203,14 @@
                     font-size: 2em;
                     color: white !important;
                     text-decoration: none;
+                }
+            }
+            .GlinChaine {
+                &:after {
+                    content: "<<"
+                }
+                &:before {
+                    content: ">>"
                 }
             }
         }

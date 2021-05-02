@@ -1,0 +1,80 @@
+section {
+    @media only screen and (orientation: portrait) {
+        width: 90vw;
+        margin: auto auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas: ". .  " ". .  ";
+        a {
+            text-decoration: none;
+            border: 3px solid #FFFFFF;
+            transition: 0.3s;
+            &:hover {
+                transform: scale(0.95);
+            }
+            &:nth-child(2n+1) {
+                background: rgb(255, 0, 0);
+                background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                .boite {
+                    width: 100%;
+                    .nom {
+                        text-align: center;
+                        font-family: Impact, Charcoal, sans-serif;
+                        font-size: 4vw;
+                        word-spacing: 1.2px;
+                        color: #000000;
+                        font-weight: 700;
+                        text-decoration: none;
+                        font-style: normal;
+                        font-variant: small-caps;
+                        text-transform: uppercase;
+                    }
+                    .pp {
+                        width: 100%;
+                    }
+                    .visu {
+                        text-align: center;
+                        color: white;
+                    }
+                    .sm {
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+            &:nth-child(2n) {
+                background: rgb(255, 0, 0);
+                background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                .boite {
+                    width: 100%;
+                    .nom {
+                        text-align: center;
+                        font-family: Impact, Charcoal, sans-serif;
+                        font-size: 4vw;
+                        word-spacing: 1.2px;
+                        color: white;
+                        font-weight: 700;
+                        text-decoration: none;
+                        font-style: normal;
+                        font-variant: small-caps;
+                        text-transform: uppercase;
+                    }
+                    .pp {
+                        width: 100%;
+                    }
+                    .visu {
+                        text-align: center;
+                        color: black;
+                        font-size: 1em;
+                    }
+                    .sm {
+                        text-align: center;
+                        color: black;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
