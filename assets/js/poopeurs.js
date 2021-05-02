@@ -51,7 +51,7 @@ let poopeurs = [{
         "Visu": 4,
         "SM": 2,
         "img": "https://yt3.ggpht.com/ytc/AAUvwnj-f4ugAeZefczv3F7VOqQ__6RwTkl49Xgio-wFZQ=s88-c-k-c0x00ffffff-no-rj",
-        "url": "https://www.youtube.com/c/KingHarkiniannn/videos",
+        "url": "https://www.youtube.com/channel/UCommjyq1P7hQPKQcMJ0sdrw/videos",
         "id": "KingHarkiniannn"
     },
     {
@@ -59,7 +59,7 @@ let poopeurs = [{
         "Visu": 4,
         "SM": 3,
         "img": "https://yt3.ggpht.com/ytc/AAUvwngTcQMkVip0HKlHi0YM5axpBdbVLkp_bds_YIsc=s88-c-k-c0x00ffffff-no-rj",
-        "url": "https://www.youtube.com/c/IPSUMLUMINEUX/videos",
+        "url": "https://www.youtube.com/channel/UCzzwBR-gfkfJFn57nS-x4EA/videos",
         "id": "IPSUMLUMINEUX"
     },
     {
