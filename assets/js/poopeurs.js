@@ -3,7 +3,7 @@ let poopeurs = [{
         "Visu": 4,
         "SM": 3,
         "img": "https://yt3.ggpht.com/a/AGF-l7-qEaOqNTiKTEMyOGdeue3ZIgOiRI4sEkNtzg=s288-c-k-c0xffffffff-no-rj-mo",
-        "url": "https://www.youtube.com/channel/UCcvL14enJ8bkf1fxofPamyg"
+        "url": "https://www.youtube.com/channel/UCcvL14enJ8bkf1fxofPamyg/videos"
     },
     {
         "Nom": "MrMental4",
@@ -17,14 +17,14 @@ let poopeurs = [{
         "Visu": 2,
         "SM": 1,
         "img": "https://yt3.ggpht.com/a/AGF-l7-MklGy5eCI_JYcn0sySnUtggB7mstv3i6LIw=s176-c-k-c0x00ffffff-no-rj-mo",
-        "url": "https://www.youtube.com/channel/UC56vGrQroQ4WDyBhBHpNuYg"
+        "url": "https://www.youtube.com/channel/UC56vGrQroQ4WDyBhBHpNuYg/videos"
     },
     {
         "Nom": "Fynn Tavvar",
         "Visu": 3,
         "SM": 3,
         "img": "https://yt3.ggpht.com/a/AGF-l79LHzU_2PkYU-jIr-xwCcDQ7FbaJ6NSSij-_Q=s288-c-k-c0xffffffff-no-rj-mo",
-        "url": "https://www.youtube.com/user/FynnTavvar"
+        "url": "https://www.youtube.com/user/FynnTavvar/videos"
     },
     {
         "Nom": "Jefaischierlesgens",
@@ -66,14 +66,14 @@ let poopeurs = [{
         "Visu": 4,
         "SM": 2,
         "img": "https://yt3.ggpht.com/ytc/AAUvwnj_XpB76sEojN2WOWchN2RavwQWo2xCoVSJ2Z8m9Q=s88-c-k-c0x00ffffff-no-rj",
-        "url": "https://www.youtube.com/channel/UCDAAfPkAx7BS_3SpSK133qQ"
+        "url": "https://www.youtube.com/channel/UCDAAfPkAx7BS_3SpSK133qQ/videos"
     },
     {
         "Nom": "Suimoco Squidfox",
         "Visu": 4,
         "SM": 2,
         "img": "https://yt3.ggpht.com/ytc/AAUvwnhhQsTWBKMVacK-l8ynMpBZ4mJtfmvwQpiJ5RyMsw=s88-c-k-c0x00ffffff-no-rj",
-        "url": "https://www.youtube.com/channel/UCKSvl6OExc9E-ssrCsJjxEw"
+        "url": "https://www.youtube.com/channel/UCKSvl6OExc9E-ssrCsJjxEw/videos"
     },
     {
         "Nom": "EnfluredeRenard",
