@@ -1,0 +1,13 @@
+{
+    "name": "La Poopette",
+    "short_name": "Poopette",
+    "theme_color": "#882602",
+    "background_color": "#957000",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "https://kidpaddleetcie.github.io/Poopette/",
+    "start_url": "https://kidpaddleetcie.github.io/Poopette/",
+    "categories": ["YTP", "Poopeurs"],
+    "lang": "fr-FR",
+    "description": "La Poopette: Les recettes des poopeurs"
+}

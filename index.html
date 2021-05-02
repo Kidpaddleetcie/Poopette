@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>La Poopette</title>
+    <!-- Tout ce qui touche au icon BEGIN-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#da532c">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="La Poopette">
+    <meta name="application-name" content="La Poopette">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Tout ce qui touche au icon END-->
+
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/portrait.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="assets/css/landscape.css" media="screen and (orientation: landscape)">
@@ -14,11 +30,15 @@
 
 <body>
     <header>
-        <img src="assets/img/logo.png" />
-
-
-        <p>La Poopette: Les recettes des poopeurs</p>
+        <img class="logo" src="assets/img/logo.png" />
+        <p class="description">La Poopette: Les recettes des poopeurs</p>
+        <div class="tweet"> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" style="text-align: center;" class="twitter-share-button" data-size="large" data-text="Une page qui regroupe pleins de poopeurs français ! C&#39;est trop bien !" data-url="https://kidpaddleetcie.github.io/Poopette/"
+                data-hashtags="YTP_FR" data-lang="fr" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <img class="illustration" src="assets/img/Les_poopeurs.png" alt="Pleins de poopeurs !">
     </header>
+
     <section id="poopeurs">
     </section>
     <script src="assets/js/poopeurs.js"></script>
